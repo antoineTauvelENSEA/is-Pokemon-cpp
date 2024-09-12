@@ -17,6 +17,10 @@ public:
     Pokemon* getOnePokemonByName(string name);
     Pokemon* getOnePokemonById(int id);
     ~Pokedex();
+
+    int getSize();
+
+    int getMaximumIndex();
 };
 
 

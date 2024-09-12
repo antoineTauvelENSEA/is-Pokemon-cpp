@@ -17,7 +17,7 @@ Pokemon::Pokemon(const string name, int id, double hitPoint, double attack, doub
 Pokemon::Pokemon(const Pokemon& anotherPokemon) : name(anotherPokemon.name),id(anotherPokemon.id),
         hitPoint(anotherPokemon.hitPoint), attackValue(anotherPokemon.attackValue), defense(anotherPokemon.defense),
         generation(anotherPokemon.generation){
-    std::cout<<"Recopie de " << name <<std::endl;
+ //   std::cout<<"Recopie de " << name <<std::endl;
     numberOfPokemon++;
 }
 

@@ -67,5 +67,14 @@ Pokedex* Pokedex::getInstance() {
     return instance;
 }
 
+int Pokedex::getSize(){
+    return arrayOfPokemon.size();
+}
 
-
+int Pokedex::getMaximumIndex(){
+    int max=0;
+    for (Pokemon * pokemon : arrayOfPokemon){
+        if (pokemon->getId()>max) max=pokemon->getId();
+    }
+    return max;
+}

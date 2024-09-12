@@ -3,4 +3,4 @@ project(PokemonIS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PokemonIS main.cpp Pokemon.cpp SetOfPokemon.cpp Pokedex.cpp Pokedex.h Pokeball.cpp Pokeball.h)
+add_executable(PokemonIS main.cpp Pokemon.cpp SetOfPokemon.cpp Pokedex.cpp Pokedex.h Pokeball.cpp Pokeball.h PokemonParty.cpp PokemonParty.h)
